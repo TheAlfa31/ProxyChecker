@@ -2,7 +2,7 @@
 ### Let me tell you what it does. This tool allows you to scan the socks4 and socks5 proxy lists you get from proxy sites and isolate the working ones. 
 
 
-#### Usage: öncelikle bulduğunuz proxy listesini alıp proxy.txt dosyasına yerleştirmek daha sonra python3 main.py yazarak komut dosyasını başlatıp ayırt etmeye başlayabilirsiniz.
+#### Usage: First, you can take the proxy list you found and place it in the proxy.txt file, then start the script by typing python3 main.py and start distinguishing.
 
 
 ## Kurulum
