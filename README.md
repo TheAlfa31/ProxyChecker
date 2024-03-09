@@ -13,3 +13,6 @@ python3 main.py
 ```
 
 ## Required modules: requests, colorama and pysocks.
+
+
+[My Telegram Account](https://t.me/officialalfa)
