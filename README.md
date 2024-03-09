@@ -15,4 +15,7 @@ python3 main.py
 ## Required modules: requests, colorama and pysocks.
 
 
+> [!CAUTION]
+> If the proxies you have found do not appear to be working, they are not caused by a script, the proxies you have found are turned off.
+
 [My Telegram Account](https://t.me/officialalfa)
