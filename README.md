@@ -7,7 +7,7 @@
 
 ## Setup
 ```
-git clone https://github.com/TheAlfa31/ProxyChecker/blob/main/README.md#let-me-tell-you-what-it-does-this-tool-allows-you-to-scan-the-socks4-and-socks5-proxy-lists-you-get-from-proxy-sites-and-isolate-the-working-ones
+git clone https://github.com/TheAlfa31/ProxyChecker
 pip install -r requirements.txt
 python3 main.py
 ```
