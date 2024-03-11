@@ -36,18 +36,26 @@ def clear_terminal():
         os.system('clear')
 
 clear_terminal()
-kayan_yazi(f"\n{inputt} {yellow}Please wait, the version is being checked and messages are being fetched...\n")  
+kayan_yazi(f"\n{inputt}{yellow}Please wait, the version is being checked and messages are being fetched...\n")  
 
 qw=requests.get("https://raw.githubusercontent.com/TheAlfa31/DevilProjects/main/check.json")
 a=json.loads(qw.text)
 
 yu=a["active"]
 yuuu=a["sürüm"]
+message=a["message"]
+
+
+
+kayan_yazi(f"{tic} - {yellow}{message}{reset}\n")
+
+
 
 if yu=="True":
     pass
 if yu=="False":
     kayan_yazi(f"{carpi} - I had to close it for a specific reason, stay tuned.")
+    os.exit()
 
 
 
@@ -59,6 +67,11 @@ if yuuu==set_surum:
 if yuuu!=set_surum:
     kayan_yazi(f"{carpi} - {red}The version is not up to date, the new version is on github.{reset}")
     time.sleep(5)
+
+
+
+
+
 
 
 clear_terminal()
